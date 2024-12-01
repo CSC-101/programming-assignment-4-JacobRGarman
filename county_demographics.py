@@ -134,7 +134,6 @@ def get_report():
             _Constants._DATASET = _pickle.load(_)
     return _Constants._DATASET
 
-
 if __name__ == '__main__':
     from pprint import pprint as _pprint
     from timeit import default_timer as _default_timer

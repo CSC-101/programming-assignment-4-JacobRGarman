@@ -25,7 +25,7 @@ class CountyDemographics:
 
 
     # Provide a developer-friendly string representation of the object.
-    # input: CountyDemographics for which a string representation is desired. 
+    # input: CountyDemographics for which a string representation is desired.
     # output: string representation
     def __repr__(self):
         return 'CountyDemographics({}, {}, {}, {}, {}, {}, {})'.format(
